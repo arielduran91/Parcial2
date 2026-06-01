@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(to bottom, black 50%, red 125%);
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+}
+
+div {
+    color: white;
+    text-indent: 30px;
+    display: inline-flex;
+    margin-right: 50px;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.Miranda2 {
+    margin-right: 50px;
+}
+
+.Andy {
+    margin-right: 50px;
+}
+
+.Emily {
+    margin-right: 50px;
+}
+
+.Tucci {
+    margin-right: 50px;
+}
+
+div {
+    footer {
+        text-align: center;
+        a {
+            color: white;
+            font-size: 35px;
+        }
+    }
+
+}

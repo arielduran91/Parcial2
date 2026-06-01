@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(to bottom, black 50%, red 125%);
+    min-height: 100vh;
+    padding: 20px;
+}
+h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+    color: white;
+    font-family: sans-serif;
+}
+h2{
+    color: white;
+}
+img{
+    display: block;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 60px;
+}
+div{
+    text-align: center;
+    a{
+        color: white;
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0.5%;
+}
+body {
+    min-height: 100vh;
+  background: linear-gradient(to bottom, black 50%, red 125%);
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+main{
+    color: white;
+    font-size: 130%;
+}
+
+div {
+    color: white;
+    text-indent: 30px;
+    font-size: 110%;
+}
+.imagen{
+    text-align: center;
+}
+.imagen_2{
+    text-align: center;
+}
+footer{
+    a{
+        color: white;
+        font-size: 20px;
+    }
+}
+    

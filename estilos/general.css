@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(to bottom, black 50%, red 125%);
+padding: 10px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+em {
+    color: white;
+    font-size: 120%;
+    padding-top: 20px;
+}
+
+div {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    font-size: 150%;
+    word-spacing: 200px;
+   a{
+    color: white;
+   } 
+}
+
+
+
+h5 {
+    a {
+        text-align: center;
+        color: black;
+        font-size: 175%;
+    }
+}

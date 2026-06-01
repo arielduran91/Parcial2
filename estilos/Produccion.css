@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(to bottom, black 50%, red 125%);
+    padding: 15px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 25px;
+}
+
+.imagen {
+    text-align: center;
+
+    img {
+        width: 900px;
+        height: 400px;
+
+    }
+}
+
+
+div {
+    color: white;
+    font-size: 20px;
+}
+
+footer {
+    a {
+        color: white;
+        font-size: 30px;
+    }
+}
