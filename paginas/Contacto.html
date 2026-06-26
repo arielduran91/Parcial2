@@ -1,31 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>EL DIABLO VISTE A LA MODA 2 - Contacto</title>
+    <link rel="Icon" type="image/x-icon" href="../imagenes/ZapatosIcon.jpeg">
+    <link rel="stylesheet" href="../estilos/general.css">
     <link rel="stylesheet" href="../estilos/Contacto.css">
 </head>
 
 <body>
-    <h1><u>Contacto</u></h1>
-    <h3>Tenes alguna duda, comentario o sugerencia, que necesites realizar, no lo dudes.</h3>
-    <h3>Completa el formulario que figura abajo y nos comunicaremos lo antes posible.</h3>
-    <h2>Saludos!</h2>
 
-    <div><img src="../imagenes/POSTER-EL-DIABLO-VISTE-A-LA-MODA-2.webp" width="600" height="700"
-            alt="POSTER-EL-DIABLO-VISTE-A-LA-MODA-2"></div>
+    <header>
+        <h1>EL DIABLO VISTE A LA MODA 2</h1>
+    </header>
 
-    <div>
-        <footer><a href="../index.html">Home</a></footer>
-    </div>
+    <nav class="menu-navegacion">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./Sinopsis.html">Sinopsis</a></li>
+            <li><a href="./Reparto.html">Reparto</a></li>
+            <li><a href="./Produccion.html">Produccion</a></li>
+            <li><a href="./Curiosidades.html">Curiosidades</a></li>
+            <li><a href="./Contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
 
-    <div>
-        <p><a href="https://www.20thcenturystudios.com/movies/the-devil-wears-prada-2" target="_blank">Sitio Oficial</a>
-        </p>
-    </div>
+    <main class="main contacto">
+        <h2 class="titulo contacto">Contacto</h2>
+        <p class="pregunta contacto">¿Tenés alguna duda, comentario o sugerencia? Completá el formulario y nos
+            comunicaremos lo antes posible.</p>
 
+        <div class="div columnas">
+            <figure class="poster">
+                <img src="../imagenes/POSTER-EL-DIABLO-VISTE-A-LA-MODA-2.webp" alt="POSTER-EL-DIABLO-VISTE-A-LA-MODA-2">
+            </figure>
+
+            <section class="formulario columna">
+                <form action="./Confirmacion.html" method="get" class="formulario">
+
+                    <div class="campos">
+                        <label for="nombre">Nombre *</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+                    </div>
+
+                    <div class="campos">
+                        <label for="apellido">Apellido *</label>
+                        <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required>
+                    </div>
+
+                    <div class="campos">
+                        <label for="email">Correo Electronico *</label>
+                        <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+                    </div>
+
+                    <div class="campos">
+                        <label for="telefono">Telefono</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Ej: 11 3658 1425">
+                    </div>
+
+                    <div class="campos">
+                        <label for="motivo">Motivo de contacto *</label>
+                        <select name="motivo" id="motivo" required>
+                            <option value="" disabled selected>Seleccioná una opción</option>
+                            <option value="sugerencia">Sugerencia cinematográfica</option>
+                            <option value="error">Reportar un error en la web</option>
+                            <option value="prensa">Prensa / Medios</option>
+                            <option value="otro">Otro motivo</option>
+                        </select>
+                    </div>
+
+                    <div class="campos">
+                        <label for="mensaje">Mensaje *</label>
+                        <textarea id="mensaje" name="mensaje" rows="5"
+                            placeholder="Escriba su mensaje/sugerencia a continuacion..." required></textarea>
+                    </div>
+
+                    <div class="botones">
+                        <button type="submit" class="enviar">Enviar Mensaje</button>
+                        <button type="reset" class="limpiar">Limpiar</button>
+                    </div>
+
+                </form>
+            </section>
+        </div>
+
+        <div class="links Externo">
+            <p><a href="https://www.20thcenturystudios.com/movies/the-devil-wears-prada-2" target="_blank">Sitio
+                    Oficial</a>
+            </p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="copyright">2026 - Programación Web 1 - Da Vinci</p>
+    </footer>
 
 
 </body>

@@ -1,55 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>EL DIABLO VISTE A LA MODA 2 - Home</title>
+    <link rel="icon" type="image/x-icon" href="./imagenes/ZapatosIcon.jpeg">
     <link rel="stylesheet" href="./estilos/general.css">
+    <link rel="stylesheet" href="./estilos/Home.css">
 </head>
 
 <body>
     <header>
         <h1>EL DIABLO VISTE A LA MODA 2</h1>
     </header>
-    <nav>
-        <p><a href="./paginas/Sinopsis.html">Sinopsis</a>
-            <a href="./paginas/Reparto.html">Reparto</a>
-            <a href="./paginas/Produccion.html">Produccion</a>
-            <a href="./paginas/Curiosidades.html">Curiosidades</a>
-            <a href="./paginas/Contacto.html">Contacto</a>
-        </p>
+
+    <nav class="menu-navegacion">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./paginas/Sinopsis.html">Sinopsis</a></li>
+            <li><a href="./paginas/Reparto.html">Reparto</a></li>
+            <li><a href="./paginas/Produccion.html">Produccion</a></li>
+            <li><a href="./paginas/Curiosidades.html">Curiosidades</a></li>
+            <li><a href="./paginas/Contacto.html">Contacto</a></li>
+        </ul>
     </nav>
 
-    <div>
 
-        <p><em>Casi veinte años después de dar vida a los icónicos personajes Miranda, Andy, Emily y Nigel, Meryl
-                Streep,
-                Anne
-                Hathaway, Emily Blunt y Stanley Tucci regresan a las elegantes calles de Nueva York y a las
-                sofisticadas
-                oficinas de la revista Runway en la esperada secuela del fenómeno de 2006, que reune drama y comedia
-                y
-                que
-                marcó
-                a toda una generación.</em></p>
+    <main class="Home">
+        <section class="Introduccion">
+            <p><em>Casi veinte años después de dar vida a los icónicos personajes Miranda, Andy, Emily y Nigel, Meryl
+                    Streep,
+                    Anne
+                    Hathaway, Emily Blunt y Stanley Tucci regresan a las elegantes calles de Nueva York y a las
+                    sofisticadas
+                    oficinas de la revista Runway en la esperada secuela del fenómeno de 2006, que reune drama y comedia
+                    y
+                    que
+                    marcó
+                    a toda una generación.</em></p>
+        </section>
+
+        <figure class="imagen principal">
+            <img src="./imagenes/El_diablo_viste_a_lamoda2.webp" width="600" height="600">
+        </figure>
+        <section class="TRAILER">
+            <h2>MIRA EL TRAILER OFICIAL</h2>
+            <div class="reproductor TRAILER">
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/2mha7C_mCRs?si=uESGAhSqbmLS3W-b &amp ;start=1"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+    </main>
 
 
-    </div>
 
-    <div><img src="./imagenes/El_diablo_viste_a_lamoda2.webp" width="600" height="600"></div>
 
-    <div>
-        <footer>
-            <h5><a href="https://www.cinemark.com.ar/pelicula/el-diablo-viste-a-la-moda-2" target="_blank">COMPRA YA TUS
-                    ENTRADAS</a></h5>
-        </footer>
-    </div>
-    <div>
-        <footer>
-            <h5><a href="https://www.youtube.com/watch?v=aXdjJbVrJeg" target="_blank">VE EL TRAILER AHORA</a></h5>
-        </footer>
-    </div>
+
+
+
+
+    <footer class="footer Home">
+        <section class="comercial">
+            <a href="https://www.cinemark.com.ar/pelicula/el-diablo-viste-a-la-moda-2" target="_blank">COMPRA YA TUS
+                ENTRADAS</a>
+        </section>
+        <p class="copyright">2026 - Programación Web 1 - Da Vinci</p>
+    </footer>
+
 </body>
 
 </html>

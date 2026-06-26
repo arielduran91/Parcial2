@@ -1,0 +1,60 @@
+.Introduccion em {
+    color: white;
+    font-size: 130%;
+    line-height: 1.6;
+    display: block;
+    max-width: 1400px;
+    margin: 0 auto 30px auto;
+    text-align: center;
+}
+
+.imagen.principal {
+    margin: 0 auto 40px auto;
+    text-align: center;
+}
+.imagen.principal img {
+    border: 3px solid white;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.imagen.principal img:hover {
+    transform: scale(1.02);
+}
+
+.TRAILER h2 {
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.reproductor.TRAILER iframe {
+    border: 2px solid red;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.4);
+    border-radius: 6px;
+}
+
+.comercial a {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.4);
+    transition: background-color 0.3 ease, transform 0.2 ease, box-shadow 0.3s ease;
+}
+
+.comercial a:hover {
+    background-color: white;
+    color: black;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.6);
+}

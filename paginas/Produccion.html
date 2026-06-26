@@ -1,21 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produccion</title>
+    <title>EL DIABLO VISTE A LA MODA 2 - Produccion</title>
+    <link rel="Icon" type="image/x-icon" href="../imagenes/ZapatosIcon.jpeg">
+    <link rel="stylesheet" href="../estilos/general.css">
     <link rel="stylesheet" href="../estilos/Produccion.css">
 </head>
 
 <body>
     <header>
-        <h1><u>Produccion</u></h1>
+        <h1>EL DIABLO VISTE A LA MODA 2</h1>
     </header>
 
-    <section>
-        <h2><u>Desarrollo: </u></h2>
-        <Div>
+    <nav class="menu-navegacion">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./Sinopsis.html">Sinopsis</a></li>
+            <li><a href="./Reparto.html">Reparto</a></li>
+            <li><a href="./Produccion.html">Produccion</a></li>
+            <li><a href="./Curiosidades.html">Curiosidades</a></li>
+            <li><a href="./Contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main class="main produccion">
+
+    <section class="section produccion">
+        <h2>Desarrollo</h2>
+        <Div class="div produccion">
             <p>
                 En 2013, Lauren Weisberger escribió una secuela, La venganza viste de Prada: El regreso del diablo. No
                 parecía probable que se hiciera una secuela de la película original, ya que dos de sus protagonistas no
@@ -32,9 +47,10 @@
             </p>
         </Div>
     </section>
-    <section>
-        <h2><u>Rodaje: </u></h2>
-        <div>
+
+    <section class="section produccion">
+        <h2>Rodaje</h2>
+        <div class="div produccion">
             <p>
                 La fotografía principal comenzó el 30 de junio de 2025, con David Frankel dirigiendo nuevamente y
                 Kenneth
@@ -54,16 +70,15 @@
                 participación de Lady Gaga con un papel en la cinta.
             </p>
         </div>
-        <div class="imagen">
+        <figure class="imagen produccion">
             <img src="../imagenes/meryl-streep-stanley-tucci-reaparecen-como-sus-personajes-diablo-viste-prada-semana-moda-milan_97.webp"
-                alt="">
-        </div>
+                alt="Meryl Streep y Stanley Tucci en la semana de la moda de Milán">
+        </figure>
     </section>
 
-
-    <section>
-        <h2><u>Musica: </u></h2>
-        <div>
+    <section class="section produccion section musica">
+        <h2>Musica</h2>
+        <div class="div produccion">
             <p>
                 El tráiler de The Devil Wears Prada 2 incluyó un adelanto de «Runway» (2026), una canción original
                 interpretada por Lady Gaga y Doechii. El tema, que comparte su título con la revista ficticia dirigida
@@ -71,11 +86,19 @@
                 Miranda Priestly, presentó un estilo house pop y acompañó musicalmente el avance. La canción se lanzó el
                 9 de abril de 2026.
             </p>
+            <div class="reproductor audio">
+                <label for="bso-player">Escuchá la Banda Sonora Oficial ("Runway" - Lady Gaga):</label>
+                <audio id="bso-player" controls autoplay>
+                    <source src="../Audio/Lady Gaga, Doechii - Runway (Official Audio).mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio
+                </audio>
+            </div>
         </div>
     </section>
-    <section>
-        <h2><u>Estreno: </u></h2>
-        <div>
+
+    <section class="section produccion">
+        <h2>Estreno</h2>
+        <div class="div produccion">
             <p>
                 The Devil Wears Prada 2 (el diablo viste a la moda 2 en latinoamerica) tiene programado su estreno en
                 los
@@ -95,7 +118,11 @@
             </p>
         </div>
     </section>
-    <footer><a href="../index.html">Home</a></footer>
+    </main>
+
+    <footer class="footer">
+        <p class="copyright">2026 - Programación Web 1 - Da Vinci</p>
+    </footer>
 </body>
 
 </html>

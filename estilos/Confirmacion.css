@@ -1,0 +1,68 @@
+.main.confirmacion {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 0 30px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.section.confirmacion {
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.Icono.Exitoso {
+    font-size: 3.5rem;
+    color: #00ff66;
+    margin-bottom: 15px;
+    text-shadow: 0 0 15px rgba(0, 255, 102, 0.4);
+}
+
+.section.confirmacion h2 {
+    font-family: 'Didot', 'Times New Roman', serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.section.confirmacion p {
+    font-family: Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.section.confirmacion .Miranda {
+    font-style: italic;
+    color: #ffffff;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+.retorno {
+    margin-top: 35px;
+}
+
+.volver {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #ff3333;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.volver:hover {
+    background-color: #cc0000;
+    transform: translateY(-2px);
+}
